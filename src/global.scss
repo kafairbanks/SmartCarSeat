@@ -1,0 +1,43 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+:root {
+  --ion-tab-bar-background: #4286f4;
+  --ion-tab-bar-border-color: white;
+  --ion-toolbar-background: #4286f4;
+}
+
+ion-toolbar {
+  height: 50px;
+}
+
+ion-title {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+
+ion-tab-button.tab-selected {
+  background-color: #6ca1f7;
+}
+
+.white-text {
+  color: white;
+}
+
+.success {
+  color: limegreen;
+}
+
+.fail {
+  color: red;
+}
